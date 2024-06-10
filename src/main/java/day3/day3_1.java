@@ -20,7 +20,7 @@ str1	str2	result
         System.out.println(solution(str1, str2));
     }
 
-    public static String solution(String str1, String str2) {
+    private static String solution(String str1, String str2) {
         String answer = "";
 
         // 제한사항

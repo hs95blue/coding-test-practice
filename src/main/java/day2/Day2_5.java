@@ -26,7 +26,7 @@ public class Day2_5 {
         System.out.println(solution("He11oWor1d", "lloWorl", 2)); // "HelloWorld"
     }
 
-    public static String solution(String my_string, String overwrite_string, int s) {
+    private static String solution(String my_string, String overwrite_string, int s) {
         String answer = "";
         // my_string의 인덱스 s부터 overwrite_string의 길이만큼을 문자열 overwrite_string으로 바꾼 문자열을 return
 

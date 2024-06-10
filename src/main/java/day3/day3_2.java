@@ -18,7 +18,7 @@ arr	result
     }
 
 
-    public static String solution(String[] arr) {
+    private static String solution(String[] arr) {
         String answer = "";
 
         // 제한사항

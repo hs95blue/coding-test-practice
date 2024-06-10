@@ -31,10 +31,10 @@ a ⊕ b = 912 이고, 2 * a * b = 364 입니다. 둘 중 더 큰 값은 912 이�
           int a = 2;
           int b = 91;
 
-          System.out.println(solution());
+          System.out.println(solution(a, b));
     }
 
-    public static int solution(int a, int b) {
+    private static int solution(int a, int b) {
         int answer = 0;
         // 제한사항
         if(a < 1) {

@@ -28,7 +28,7 @@ my_string	k	result
             System.out.println(solution(my_string, k));
     }
 
-    public static String solution(String my_string, int k) {
+    private static String solution(String my_string, int k) {
         String answer = "";
 
         // 제한사항

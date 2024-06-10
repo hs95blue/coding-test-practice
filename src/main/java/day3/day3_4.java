@@ -29,7 +29,7 @@ a ⊕ b = 898 이고, b ⊕ a = 889 입니다. 둘 중 더 큰 값은 898 이므
         System.out.println(solution(a, b));
     }
 
-    public static int solution(int a, int b) {
+    private static int solution(int a, int b) {
         int answer = 0;
 
         // 제한사항
