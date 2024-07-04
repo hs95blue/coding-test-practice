@@ -12,13 +12,13 @@ public class QueueExample {
 //        Queue<Integer> queue = new LinkedList<Integer>();
 //        Queue<Integer> queue = new ArrayDeque<>();
         // 큐에 데이터 삽입
-        queue.enqueue(1);
-        queue.enqueue(2);
-        queue.enqueue(3);
-
-        // 큐에서 데이터 삭제
-        System.out.println(queue.dequeue());
-        System.out.println(queue.dequeue());
-        System.out.println(queue.dequeue());
+//        queue.enqueue(1);
+//        queue.enqueue(2);
+//        queue.enqueue(3);
+//
+//        // 큐에서 데이터 삭제
+//        System.out.println(queue.dequeue());
+//        System.out.println(queue.dequeue());
+//        System.out.println(queue.dequeue());
     }
 }
